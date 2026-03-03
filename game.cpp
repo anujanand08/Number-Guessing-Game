@@ -8,7 +8,6 @@ int main(){
     srand( time(NULL) );
     
     int random_no = (rand() % 100) + 1 ;
-    //std::cout << random_no;
     do 
     {
     std::cout << "Enter a Number between 1 to 100:- ";
@@ -18,8 +17,6 @@ int main(){
     if (a < random_no)
     {
        std::cout << "Try something bigger!!! \n";
-
-
     }
     else if (a > random_no)
     {
@@ -29,13 +26,6 @@ int main(){
         std::cout << "Congratulations, You got it !!! \n";
         std::cout << "It took you " << count <<"tries! :) :) :)";
     }
-
-
 } while (a != random_no);
-
-    
-    
-
-
  return 0;
 }
